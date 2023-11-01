@@ -1,0 +1,103 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("png/sunset.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.header{
+    margin: auto 1.5%;
+    display: flex;
+    color: rgb(230, 142, 41);
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(66, 23, 85, 0.456);
+    border-radius: 10px 50px;
+    padding: 2px 5%;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: chocolate;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.topnav a{
+    text-decoration: none;
+    float: left;
+    display: block;
+    font-size: large;
+    text-align: center;
+    padding: 12px 18px;
+    color:wheat;
+    transition: 0.1s;
+}
+
+.topnav a:hover{
+    background-color: rgba(255, 166, 0, 0.5);
+}
+
+.heart{
+    background-color: rgb(250, 217, 181, 0.3);
+    height: 120%;
+    width: 80%;
+    overflow: hidden;
+    position: static;
+    margin-left: 10%;
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+    display: -webkit-inline-flex;
+    
+}
+
+.footer{
+    background-color: rgba(11, 94, 167, 0.76);
+    position: fixed;
+    bottom: 0;
+    width: 75.9%;
+    text-align: left;
+    padding: 10px 10%;
+    border-radius: 10px;
+    margin: auto 1.5%;
+    display: flex;
+    align-items: center;
+}
+
+.footer a{
+    text-decoration: none;
+    font-size: large;
+    color: aliceblue;
+    padding: 10px;
+    display: flex;
+}
+
+.footer div{
+    color: aliceblue;
+    font-size: large;
+}
+
+.footer a:hover{
+    background-color: rgb(115, 179, 234);
+}
+
+.footer a img{
+    height: 20px;
+    width: 20px;
+    transition: 0.25s;
+}
+
+.footer a img:hover{
+    transform: scale(150%);
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: rgb(41, 122, 177, 0.7);
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(216, 156, 34);
+    border-radius: 5px;
+}

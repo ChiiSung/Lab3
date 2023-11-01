@@ -1,0 +1,20 @@
+
+.heart div{
+    background-image: url("https://media0.giphy.com/media/BRkfbKQS69zmJK5x6g/giphy.gif?cid=ecf05e47wpqa1zvvlwvrxcj3emfx2s0kcxxlxwn89ckw3e73&ep=v1_gifs_search&rid=giphy.gif&ct=g");    
+    width: 100vmin;
+    background-size: cover;
+    background-position: -145px 0px;
+    
+}
+
+.heart div img{
+    height: 12vmax;
+    display: block;
+    margin: auto;
+    margin-top: 10vmax;
+}
+
+.heart table{
+    font-size: larger;
+    margin: 2.5%;
+}

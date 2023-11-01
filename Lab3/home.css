@@ -1,0 +1,51 @@
+.heart{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.infor1{
+    background-color: rgba(66, 23, 85, 0.5);
+    border: 5px solid white;
+    border-radius: 100px;
+    padding: 5%;
+    width: 100%;
+    display: grid;
+    color: aliceblue;
+    font-size: x-large;
+}
+
+.list{
+    background-color: rgba(254, 177, 118, 0.351);
+    border-radius: 10px;
+    font-size: medium;
+    color: black;
+}
+
+.anime{
+    overflow:scroll;
+}
+.anime li{
+    list-style: none;
+    margin: 2%;
+    text-align: center;
+}
+.anime li a{
+    color: black;
+    text-decoration: none;
+}
+.anime li img{
+    height: 40vmin;
+    transition: 0.5s;
+}
+.anime li img:hover{
+    transform: scale(110%);
+}
+.anime::-webkit-scrollbar{
+    width: 0px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.learn_list li a{
+    text-decoration: none;
+    color: black;
+}

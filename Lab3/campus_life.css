@@ -1,0 +1,19 @@
+.heart{
+    display: grid;
+}
+
+.heart div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heart div p{
+    width: 70%;
+    padding: 2.5%;
+}
+
+.heart div img{
+    width: 30%;
+    padding: 2.5%
+}
