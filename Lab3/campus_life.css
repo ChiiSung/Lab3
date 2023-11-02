@@ -1,5 +1,6 @@
 .heart{
     display: grid;
+    border-radius: 10px;
 }
 
 .heart div{
@@ -11,6 +12,7 @@
 .heart div p{
     width: 70%;
     padding: 2.5%;
+    line-height: 30px;
 }
 
 .heart div img{

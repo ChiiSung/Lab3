@@ -11,6 +11,7 @@
     display: grid;
     color: aliceblue;
     font-size: x-large;
+    overflow: hidden;
 }
 
 .infor1 p{
@@ -18,39 +19,44 @@
 }
 
 .list{
-    background-color: rgba(254, 177, 118, 0.351);
-    border-radius: 10px;
-    font-size: medium;
-    color: black;
+    display: grid;
+}
+
+.list li p{
+    margin-right: 40%;
 }
 
 .anime{
-    width: auto;
+    list-style: circle;
+}
+
+.anime li{
+    display: grid;
+}
+
+.game{
+    display: flex;
+    max-width: 60%;
     overflow:scroll;
 }
-.anime li{
+.game li{
     list-style: none;
     margin: 2%;
     text-align: center;
 }
-.anime li a{
+.game li a{
     color: black;
     text-decoration: none;
 }
-.anime li img{
+.game li img{
     height: 40vmin;
     transition: 0.5s;
 }
-.anime li img:hover{
+.game li img:hover{
     transform: scale(110%);
 }
-.anime::-webkit-scrollbar{
+.game::-webkit-scrollbar{
     width: 0px;
     height: 5px;
     border-radius: 5px;
-}
-
-.learn_list li a{
-    text-decoration: none;
-    color: black;
 }
